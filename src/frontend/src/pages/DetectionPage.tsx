@@ -188,8 +188,9 @@ export function DetectionPage() {
   } = useEmergencyStore();
 
   // ── API key section ────────────────────────────────────────────────────────
-  const PREFILLED_GEMINI_KEY =
-    "AQ.Ab8RN6JR9VPqlv8UL9KX0pOr82qkSA7GZ-CqOlAnoFwkWgL4TA";
+  //const PREFILLED_GEMINI_KEY =
+    //"AQ.Ab8RN6JR9VPqlv8UL9KX0pOr82qkSA7GZ-CqOlAnoFwkWgL4TA";
+    const API_KEY = process.env.REACT_APP_API_KEY;
   const [keysOpen, setKeysOpen] = useState(false);
   const [geminiKey, setGeminiKey] = useState(PREFILLED_GEMINI_KEY);
   const [ttsKey, setTtsKey] = useState("");
