@@ -1,0 +1,8 @@
+node_modules/
+*.mp4
+*.zip
+*.pt
+*.h5
+*.log
+.env
+__pycache__/
